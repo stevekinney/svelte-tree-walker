@@ -1,0 +1,68 @@
+{
+  "name": "svelte-tree-walker",
+  "version": "0.0.1",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "vitest",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "chalk": "^5.3.0",
+    "vitest": "^2.1.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "description": "Walk through a tree of nodes with better types.",
+  "main": "dist/index.js",
+  "dependencies": {
+    "assertion-error": "^2.0.1",
+    "cac": "^6.7.14",
+    "chai": "^5.1.1",
+    "check-error": "^2.1.1",
+    "debug": "^4.3.7",
+    "deep-eql": "^5.0.2",
+    "esbuild": "^0.21.5",
+    "estree-walker": "^3.0.3",
+    "fsevents": "^2.3.3",
+    "loupe": "^3.1.2",
+    "magic-string": "^0.30.11",
+    "ms": "^2.1.3",
+    "nanoid": "^3.3.7",
+    "pathe": "^1.1.2",
+    "pathval": "^2.0.0",
+    "picocolors": "^1.1.0",
+    "postcss": "^8.4.47",
+    "rollup": "^4.24.0",
+    "siginfo": "^2.0.0",
+    "source-map-js": "^1.2.1",
+    "stackback": "^0.0.2",
+    "std-env": "^3.7.0",
+    "tinybench": "^2.9.0",
+    "tinyexec": "^0.3.0",
+    "tinypool": "^1.0.1",
+    "tinyrainbow": "^1.2.0",
+    "tinyspy": "^3.0.2",
+    "typescript": "^5.6.2",
+    "undici-types": "^5.26.5",
+    "vite": "^5.4.8",
+    "vite-node": "^2.1.2",
+    "why-is-node-running": "^2.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevekinney/svelte-tree-walker.git"
+  },
+  "keywords": [
+    "svelte"
+  ],
+  "author": "Steve Kinney <hello@stevekinney.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevekinney/svelte-tree-walker/issues"
+  },
+  "homepage": "https://github.com/stevekinney/svelte-tree-walker#readme"
+}
